@@ -1,0 +1,25 @@
+/*style for background*/
+
+body {
+ background-image: url(https://img.magnific.com/premium-vector/squared-notebook-paper-seamless-pattern-bullet-journal-black-stripes_833685-2877.jpg?semt=ais_hybrid&w=740&q=80);   
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.design {
+    /*to center*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 3px;
+
+    /*to design*/
+    border: 2px solid black;
+    padding: 20px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/006/757/small/texture-of-white-crumpled-paper-illustration-vector.jpg)
+}
+
+.design h1{
+    font-family: 'Courier New', Courier, monospace;
+}
